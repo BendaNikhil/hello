@@ -19,10 +19,5 @@ pipeline {
                 echo 'Debugging the project'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying the project'
-            }
-        }
     }
 }
